@@ -63,7 +63,7 @@ Como os exercícios serão feitos na própria plataforma, crie um diretório em 
 
 -   <p><a href="#19">19.</a> Ajude este exército de sapos a formar três colunas ordenadas usando uma combinação de flex-directione flex-wrap.</p>
 
--   <p><a href="#20">20.</a> As rãs precisam ficar na mesma ordem que seus nenúfares usando flex-direction. Esta...</p>
+-   <p><a href="#20">20.</a> As duas propriedades flex-directione flex-wrapsão utilizadas tantas vezes juntos que a propriedade estenográfica...</p>
 
 -   <p><a href="#21">21.</a> Ajude as rãs a encontrar sua coluna de nenúfares usando flex-direction. Esta propriedade...</p>
 
@@ -275,13 +275,22 @@ Ajude este exército de sapos a formar três colunas ordenadas usando uma combin
 
 ### 20°
 
+As duas propriedades flex-directione flex-wrapsão utilizadas tantas vezes juntos que a propriedade estenográfica flex-flowfoi criado para combiná-los. Esta propriedade abreviada aceita o valor de uma das duas propriedades separadas por um espaço.
+
+Por exemplo, você pode usar flex-flow: row wrappara definir linhas e agrupá-las.
+
+Tente flex-flowrepetir o nível anterior.
+
 #### Resposta:
 
 <details>
  <summary>Código CSS</summary>
 
 ```css
-
+#pond {
+    display: flex;
+    flex-flow: column wrap;
+}
 ```
 
 </details>
