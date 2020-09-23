@@ -51,11 +51,9 @@ Como os exercícios serão feitos na própria plataforma, crie um diretório em 
 
 #### Parte-1
 
--   <p><a href="#13">13.</a> Ajude as rãs encontrar seus lilypads usando flex-direction, justify-contente align-items...</p>
+-   <p><a href="#14">14.</a> Às vezes, inverter a ordem das linhas ou colunas de um contêiner não é suficiente...</p>
 
--   <p><a href="#14">14.</a> Use justify-contentnovamente para ajudar essas rãs a chegarem aos nenúfares...</p>
-
--   <p><a href="#15">15.</a> Ajude os três sapos a encontrar seus nenúfares apenas usando justify-content. Desta vez...</p>
+-   <p><a href="#15">15.</a> Use a orderpropriedade para enviar o sapo vermelho ao seu nenúfar.</p>
 
 -   <p><a href="#16">16.</a> Agora, os nenúfares nas bordas foram levados para a costa, aumentando o espaço...</p>
 
@@ -79,39 +77,25 @@ Como os exercícios serão feitos na própria plataforma, crie um diretório em 
 
 ## Exercícios [Meus códigos]
 
-### 13°
-
-#### Resposta:
-
-<details>
- <summary>Código CSS</summary>
-
-```css
-
-```
-
-</details>
-
-<p align="right">
-    <a href="https://flexboxfroggy.com/">
-    <img alt="Go index.html" src="https://img.shields.io/badge/link-exercise_13°-orange">
-    </a>&nbsp;
-    <a href="#Sumário">
-    <img alt="Back Sumário" src="https://img.shields.io/badge/Back-Sum%C3%A1rio-orange">
-  </a>
-</p>
-
-#
-
 ### 14°
 
+Às vezes, inverter a ordem das linhas ou colunas de um contêiner não é suficiente. Nesses casos, podemos aplicar a orderpropriedade a itens individuais. Por padrão, os itens têm um valor de 0, mas podemos usar essa propriedade para defini-la também como um valor inteiro positivo ou negativo (-2, -1, 0, 1, 2).
+
+Use a orderpropriedade para reordenar as rãs de acordo com seus nenúfares.
+
 #### Resposta:
 
 <details>
  <summary>Código CSS</summary>
 
 ```css
+#pond {
+    display: flex;
+}
 
+.amarelo {
+    order: 1;
+}
 ```
 
 </details>
@@ -129,13 +113,21 @@ Como os exercícios serão feitos na própria plataforma, crie um diretório em 
 
 ### 15°
 
+Use a orderpropriedade para enviar o sapo vermelho ao seu nenúfar.
+
 #### Resposta:
 
 <details>
  <summary>Código CSS</summary>
 
 ```css
+#pond {
+    display: flex;
+}
 
+.red {
+    order: -1;
+}
 ```
 
 </details>
