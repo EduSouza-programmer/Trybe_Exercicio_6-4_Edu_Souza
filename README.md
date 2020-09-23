@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  Exercício 6-3: CSS Flexbox - Parte 2 - Concluído o/ o/ o/
+  Exercício 6-4: CSS Flexbox - Parte 2 - Concluído o/ o/ o/
 </h3>
 
 <blockquote align="center">“Quanto mais você estuda, mais aprende e se aproxima de realizar seu sonhos!”</blockquote>
