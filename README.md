@@ -57,7 +57,7 @@ Como os exercícios serão feitos na própria plataforma, crie um diretório em 
 
 -   <p><a href="#16">16.</a> Outra propriedade que você pode aplicar a itens individuais...</p>
 
--   <p><a href="#17">17.</a> Agora use align-items para ajudar as rãs a chegarem ao fundo do tanque...</p>
+-   <p><a href="#17">17.</a> Combine ordercom align-selfpara ajudar as rãs a seus destinos.</p>
 
 -   <p><a href="#18">18.</a> Conduza o sapo para o centro da lagoa usando uma combinação de justify-contente align-items.</p>
 
@@ -178,13 +178,23 @@ Outra propriedade que você pode aplicar a itens individuais é align-self. Esta
 
 ### 17°
 
+Combine ordercom align-selfpara ajudar as rãs a seus destinos.
+
 #### Resposta:
 
 <details>
  <summary>Código CSS</summary>
 
 ```css
+#pond {
+    display: flex;
+    align-items: flex-start;
+}
 
+.amarelo {
+    order: 1;
+    align-self: flex-end;
+}
 ```
 
 </details>
