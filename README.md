@@ -67,7 +67,7 @@ Como os exercícios serão feitos na própria plataforma, crie um diretório em 
 
 -   <p><a href="#21">21.</a> As rãs estão espalhadas por todo o tanque, mas os nenúfares estão agrupados no topo...</p>
 
--   <p><a href="#22">22.</a> Ajude as rãs a pegar seus próprios nenúfares. Embora pareçam próximos...</p>
+-   <p><a href="#22">22.</a> Agora, a correnteza amontoou os nenúfares no fundo. Use align-contentpara guiar os sapos até lá.</p>
 
 -   <p><a href="#23">23.</a> Ajude as rãs a encontrar seus nenúfares usando flex-directione...</p>
 
@@ -347,13 +347,19 @@ Isso pode ser confuso, mas align-contentdetermina o espaçamento entre as linhas
 
 ### 22°
 
+Agora, a correnteza amontoou os nenúfares no fundo. Use align-contentpara guiar os sapos até lá.
+
 #### Resposta:
 
 <details>
  <summary>Código CSS</summary>
 
 ```css
-
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
 ```
 
 </details>
