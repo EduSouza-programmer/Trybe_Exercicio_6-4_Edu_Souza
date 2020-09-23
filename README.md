@@ -65,7 +65,7 @@ Como os exercícios serão feitos na própria plataforma, crie um diretório em 
 
 -   <p><a href="#20">20.</a> As duas propriedades flex-directione flex-wrapsão utilizadas tantas vezes juntos que a propriedade estenográfica...</p>
 
--   <p><a href="#21">21.</a> Ajude as rãs a encontrar sua coluna de nenúfares usando flex-direction. Esta propriedade...</p>
+-   <p><a href="#21">21.</a> As rãs estão espalhadas por todo o tanque, mas os nenúfares estão agrupados no topo...</p>
 
 -   <p><a href="#22">22.</a> Ajude as rãs a pegar seus próprios nenúfares. Embora pareçam próximos...</p>
 
@@ -308,13 +308,28 @@ Tente flex-flowrepetir o nível anterior.
 
 ### 21°
 
+As rãs estão espalhadas por todo o tanque, mas os nenúfares estão agrupados no topo. Você pode usar align-contentpara definir como várias linhas são espaçadas umas das outras. Esta propriedade assume os seguintes valores:
+
+-   flex-start: As linhas são embaladas na parte superior do contêiner.
+-   flex-end: As linhas são embaladas no fundo do contêiner.
+-   center: As linhas são embaladas no centro vertical do contêiner.
+-   space-between: As linhas são exibidas com espaçamento igual entre elas.
+-   space-around: As linhas são exibidas com espaçamento igual ao redor delas.
+-   stretch: As linhas são esticadas para caber no contêiner.
+
+Isso pode ser confuso, mas align-contentdetermina o espaçamento entre as linhas, enquanto align-itemsdetermina como os itens como um todo são alinhados dentro do contêiner. Quando há apenas uma linha, align-contentnão tem efeito.
+
 #### Resposta:
 
 <details>
  <summary>Código CSS</summary>
 
 ```css
-
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
 ```
 
 </details>
