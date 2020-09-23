@@ -61,7 +61,7 @@ Como os exercícios serão feitos na própria plataforma, crie um diretório em 
 
 -   <p><a href="#18">18.</a> Os sapos são todos espremidos em uma única fileira de nenúfares...</p>
 
--   <p><a href="#19">19.</a> Os sapos precisam cruzar o lago novamente, desta vez para alguns nenúfares...</p>
+-   <p><a href="#19">19.</a> Ajude este exército de sapos a formar três colunas ordenadas usando uma combinação de flex-directione flex-wrap.</p>
 
 -   <p><a href="#20">20.</a> As rãs precisam ficar na mesma ordem que seus nenúfares usando flex-direction. Esta...</p>
 
@@ -245,13 +245,19 @@ Ah não! Os sapos são todos espremidos em uma única fileira de nenúfares. Dis
 
 ### 19°
 
+Ajude este exército de sapos a formar três colunas ordenadas usando uma combinação de flex-directione flex-wrap.
+
 #### Resposta:
 
 <details>
  <summary>Código CSS</summary>
 
 ```css
-
+#pond {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 ```
 
 </details>
