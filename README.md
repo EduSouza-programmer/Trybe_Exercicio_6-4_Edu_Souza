@@ -59,7 +59,7 @@ Como os exercícios serão feitos na própria plataforma, crie um diretório em 
 
 -   <p><a href="#17">17.</a> Combine ordercom align-selfpara ajudar as rãs a seus destinos.</p>
 
--   <p><a href="#18">18.</a> Conduza o sapo para o centro da lagoa usando uma combinação de justify-contente align-items.</p>
+-   <p><a href="#18">18.</a> Os sapos são todos espremidos em uma única fileira de nenúfares...</p>
 
 -   <p><a href="#19">19.</a> Os sapos precisam cruzar o lago novamente, desta vez para alguns nenúfares...</p>
 
@@ -212,13 +212,22 @@ Combine ordercom align-selfpara ajudar as rãs a seus destinos.
 
 ### 18°
 
+Ah não! Os sapos são todos espremidos em uma única fileira de nenúfares. Distribua-os usando a flex-wrappropriedade, que aceita os seguintes valores:
+
+-   nowrap: Cada item é adequado a uma única linha.
+-   wrap: Os itens são agrupados em linhas adicionais.
+-   wrap-reverse: Os itens são agrupados em linhas adicionais ao contrário.
+
 #### Resposta:
 
 <details>
  <summary>Código CSS</summary>
 
 ```css
-
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+}
 ```
 
 </details>
