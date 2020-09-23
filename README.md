@@ -71,7 +71,7 @@ Como os exercícios serão feitos na própria plataforma, crie um diretório em 
 
 -   <p><a href="#23">23.</a> As rãs deram uma festa, mas é hora de voltar para casa. Use uma combinação de flex-directione...</p>
 
--   <p><a href="#24">24.</a> Ajude as rãs a encontrar seus nenúfares usando flex-directione justify-content.</p>
+-   <p><a href="#24">24.</a> Traga os sapos para casa uma última vez usando as propriedades...</p>
 
 #
 
@@ -408,13 +408,29 @@ As rãs deram uma festa, mas é hora de voltar para casa. Use uma combinação d
 
 ### 24°
 
+Traga os sapos para casa uma última vez usando as propriedades CSS que você aprendeu:
+
+-   justify-content
+-   align-items
+-   flex-direction
+-   order
+-   align-self
+-   flex-wrap
+-   flex-flow
+-   align-content
+
 #### Resposta:
 
 <details>
  <summary>Código CSS</summary>
 
 ```css
-
+#pond {
+    display: flex;
+    flex-flow: column-reverse wrap-reverse;
+    align-content: space-between;
+    justify-content: center;
+}
 ```
 
 </details>
