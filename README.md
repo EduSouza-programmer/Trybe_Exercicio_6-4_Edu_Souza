@@ -69,7 +69,7 @@ Como os exercícios serão feitos na própria plataforma, crie um diretório em 
 
 -   <p><a href="#22">22.</a> Agora, a correnteza amontoou os nenúfares no fundo. Use align-contentpara guiar os sapos até lá.</p>
 
--   <p><a href="#23">23.</a> Ajude as rãs a encontrar seus nenúfares usando flex-directione...</p>
+-   <p><a href="#23">23.</a> As rãs deram uma festa, mas é hora de voltar para casa. Use uma combinação de flex-directione...</p>
 
 -   <p><a href="#24">24.</a> Ajude as rãs a encontrar seus nenúfares usando flex-directione justify-content.</p>
 
@@ -377,13 +377,20 @@ Agora, a correnteza amontoou os nenúfares no fundo. Use align-contentpara guiar
 
 ### 23°
 
+As rãs deram uma festa, mas é hora de voltar para casa. Use uma combinação de flex-directione align-contentpara levá-los aos nenúfares.
+
 #### Resposta:
 
 <details>
  <summary>Código CSS</summary>
 
 ```css
-
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+}
 ```
 
 </details>
