@@ -55,7 +55,7 @@ Como os exercícios serão feitos na própria plataforma, crie um diretório em 
 
 -   <p><a href="#15">15.</a> Use a orderpropriedade para enviar o sapo vermelho ao seu nenúfar.</p>
 
--   <p><a href="#16">16.</a> Agora, os nenúfares nas bordas foram levados para a costa, aumentando o espaço...</p>
+-   <p><a href="#16">16.</a> Outra propriedade que você pode aplicar a itens individuais...</p>
 
 -   <p><a href="#17">17.</a> Agora use align-items para ajudar as rãs a chegarem ao fundo do tanque...</p>
 
@@ -145,13 +145,22 @@ Use a orderpropriedade para enviar o sapo vermelho ao seu nenúfar.
 
 ### 16°
 
+Outra propriedade que você pode aplicar a itens individuais é align-self. Esta propriedade aceita os mesmos valores align-itemse seu valor para o item específico.
+
 #### Resposta:
 
 <details>
  <summary>Código CSS</summary>
 
 ```css
+#pond {
+    display: flex;
+    align-items: flex-start;
+}
 
+.amarelo {
+    align-self: flex-end;
+}
 ```
 
 </details>
